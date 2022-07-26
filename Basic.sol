@@ -1,7 +1,7 @@
 // Solidity desde 0.
 // https://remix-project.org/
 
-// versión que se va a utilizar
+// SPDX-License-Identifier: GPL-3.0
 pragma solidity >= 0.7.0 < 0.9.0;
 
 contract Employess{

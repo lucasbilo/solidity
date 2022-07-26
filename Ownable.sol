@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: GPL-3.0
 pragma solidity >= 0.7.0 < 0.9.0;
 
 contract Ownable {
@@ -17,7 +18,7 @@ contract Ownable {
         require(msg.sender == owner, "Your are not the owner");
         //esto indica el cuerpo del codigo de la función que lo llama
         // estando asi, se va a ejecutar el require antes que el resto.
-        _:
+        _;
     }
 
     function setOwner(address _newOwner) public isOwner returns (bool){
